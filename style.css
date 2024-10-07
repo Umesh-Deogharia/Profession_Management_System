@@ -1,0 +1,46 @@
+body {
+    background-color: black;
+    color: white;
+    margin: 25px;
+    margin-top: 40px;
+}
+
+#allInputs {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 55px;
+}
+
+.content {
+    margin-left: 20px;
+
+}
+
+input {
+    width: 255px;
+    height: 30px;
+    margin-top: 6px;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+}
+
+button {
+    margin-top: 20px;
+    height: 2rem;
+    width: 6rem;
+    color: black;
+    display: inline;
+}
+
+#Error {
+    color: red;
+    font-size: large;
+    display: none;
+}
+
+#Success {
+    color: green;
+    display: none;
+    font-size: larger;
+}
